@@ -36,11 +36,6 @@ class movie {
         this.studio = stu;
         this.rating = rtg || "PG";
     }
-    // constructor(tit,stu){
-    //     this.title = tit;
-    //     this.studio = stu;
-    //     this.rating = PG;
-    // }
     static getPG(movie_array) {
         return movie_array.filter(element => element.rating == "PG");
     }
